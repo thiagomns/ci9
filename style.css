@@ -1,0 +1,31 @@
+.clearfix,.clr 	{ float: none; clear: both; }
+body {margin:0}
+
+/* Container */
+.container { width:990px; margin:0 auto; border:1px solid #0CF}
+.container .sombraEsquerda { float:left; border:1px solid #0F0}
+.container .sombraDireita { float:left; border:1px solid #0F0}
+
+/* Container Interno */
+.site { width:960px; float:left; border:1px solid #CF0}
+
+/* Cabeçalho */
+.site .header { height:160px; background:url(imgs/headerBG.jpg) no-repeat; padding-left:50px; padding-top:2px; padding-right:40px}
+.site .header .headerlogo {width:279px; float:left}
+.site .header .barraPesquisa {width:251px; height:27px; margin:0 auto ;float:right; padding-top:24px}
+
+
+/* Conteúdo */
+.site .content {}
+.site .slide { height:366px; width:893px; background:url(imgs/content1_03.jpg); float:none; no-repeat; margin:5px auto;}
+.site .cabeçalho { margin:5px 0px 0px 0px; height:37px; padding:3px;}
+.site .colunaEsquerda { width:250px; margin:0px 0px 0px 34px; float:left;}
+.site .colunaDireita { width:274px; margin:0px 34px 0px 0px;float: right;}
+.site .colunaMeio { margin:11px 343px;}
+
+/* Roda pé */
+.site .footer { height:166px; border:1px solid #F66;}
+.site .footer .barraCinza { height:140px; border:1px solid #669; background:url(imgs/footerbg_06_06.jpg) repeat}
+.site .footer .barraBranca { height:26px; border:1px solid #F00}
+
+.clearfix,.clr 	{ float: none; clear: both; }
