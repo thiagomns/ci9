@@ -3,7 +3,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href='style.css' /> 
-<title>Untitled Document</title>
+<title>Ci9</title>
+
+<script type="text/javascript">
+
+    function submit() {
+
+        alert("Enviou");
+
+    }
+
+</script>
+
+
 </head>
 
 <body>
@@ -11,7 +23,7 @@
     	<div class="sombraEsquerda">E</div>
            	<div class="site">
                 <div class="header">
-                	<div class="barraPesquisa"><img src="imgs/barrapesquisa_03.jpg" /></div>
+                	<div class="barraPesquisa"><form action="#"><button type="button" class='botaoSearch'  onclick="alert('Hello world!')">ok</button><input type="text" name="search" class="barraSearch"></form></div>
                     <div class="logoheader"><img src="imgs/logoheader_03.jpg"/></div>
                 </div><!-- header -->
             	<div class="content">
