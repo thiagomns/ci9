@@ -15,7 +15,6 @@ body {margin:0}
 .site .header .barraPesquisa {width:251px; height:27px; margin:0 auto ;float:right; padding-top:24px}
 .site .header button.botaoSearch { border: none; margin: 0; padding: 0;  background: url(imgs/searchBotao.png); width: 28px; height: 24px; text-indent: -9999px }
 .site .header button.botaoSearch:hover { background: url(imgs/searchBotaoHover.png); }
-.site .header button.botaoSearch img {  }
 .site .header input.barraSearch { background: url(imgs/searchInput.png); border: none; width: 220px; height: 22px;}
 
 

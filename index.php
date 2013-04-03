@@ -5,16 +5,6 @@
 <link rel="stylesheet" type="text/css" media="all" href='style.css' /> 
 <title>Ci9</title>
 
-<script type="text/javascript">
-
-    function submit() {
-
-        alert("Enviou");
-
-    }
-
-</script>
-
 
 </head>
 
@@ -23,7 +13,20 @@
     	<div class="sombraEsquerda">E</div>
            	<div class="site">
                 <div class="header">
-                	<div class="barraPesquisa"><form action="#"><button type="button" class='botaoSearch'  onclick="alert('Hello world!')">ok</button><input type="text" name="search" class="barraSearch"></form></div>
+                
+                	<div class="barraPesquisa">
+                    	<form action="#">
+                        	<button type="button" class='botaoSearch'  onclick="alert('Hello world!')">ok</button>
+                            <input type="text" name="search" class="barraSearch"></form>
+                    </div><!--barraPesquisa-->
+                    <div class="menu">
+                        <ul>
+                    		<li>Home</li>
+                            <li>Empresa</li>
+                            <li>Produtos</li>
+                            <li>Contato</li>
+                    	</ul>
+                    </div>
                     <div class="logoheader"><img src="imgs/logoheader_03.jpg"/></div>
                 </div><!-- header -->
             	<div class="content">
