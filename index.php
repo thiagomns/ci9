@@ -3,6 +3,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" media="all" href='style.css' /> 
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/menu.js"></script>
+
 <title>Ci9</title>
 
 
@@ -13,21 +16,34 @@
     	<div class="sombraEsquerda">E</div>
            	<div class="site">
                 <div class="header">
+                	<div class="headerDireito">
                 
-                	<div class="barraPesquisa">
-                    	<form action="#">
-                        	<button type="button" class='botaoSearch'  onclick="alert('Hello world!')">ok</button>
-                            <input type="text" name="search" class="barraSearch"></form>
-                    </div><!--barraPesquisa-->
-                    <div class="menu">
-                        <ul>
-                    		<li>Home</li>
-                            <li>Empresa</li>
-                            <li>Produtos</li>
-                            <li>Contato</li>
-                    	</ul>
-                    </div>
-                    <div class="logoheader"><img src="imgs/logoheader_03.jpg"/></div>
+                		<div class="barraPesquisa">
+                    		<form action="#">
+                        		<button type="button" class='botaoSearch'  onclick="alert('Hello world!')">ok</button>
+                           		<input type="text" name="search" class="barraSearch">
+                            </form>
+                   		</div><!--barraPesquisa-->
+                   	<div class="menuContainer">
+                    	<ul class="menu">
+                    		<li><a href="#">Home</a></li>
+                        	<li><a href="#">Empresa</a>
+                        		<ul class="subMenu">
+                        		<li><a href="#">SubEmpresa1</a></li>
+                            	</ul>
+                        	</li>
+                        	<li><a href="#">Produtos</a>
+                        		<ul class="subMenu">
+                            	<li><a href="#">SubProduto1</a></li>
+                            	</ul>
+                        	</li>
+                        	<li><a href="#">Contato</a></li>
+                   		</ul>
+                   	</div><!-- Menu -->
+                	</div>
+                	<div class="headerEsquerdo">
+                    	<div class="logoheader"><img src="imgs/logoheader_03.jpg"/></div>
+               		</div>
                 </div><!-- header -->
             	<div class="content">
             		<div class="slide"></div>

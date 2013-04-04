@@ -10,12 +10,27 @@ body {margin:0}
 .site { width:960px; float:left; border:1px solid #CF0}
 
 /* Cabeçalho */
+.site .headerDireito {width:580px; float:right}
+.site .header .headerEsquerdo {width: 290px; float:left}
+
 .site .header { height:160px; background:url(imgs/headerBG.jpg) no-repeat; padding-left:50px; padding-top:2px; padding-right:40px}
 .site .header .headerlogo {width:279px; float:left}
-.site .header .barraPesquisa {width:251px; height:27px; margin:0 auto ;float:right; padding-top:24px}
+.site .header .barraPesquisa {width:251px; height:27px; margin:0 auto ;float:right}
 .site .header button.botaoSearch { border: none; margin: 0; padding: 0;  background: url(imgs/searchBotao.png); width: 28px; height: 24px; text-indent: -9999px }
 .site .header button.botaoSearch:hover { background: url(imgs/searchBotaoHover.png); }
 .site .header input.barraSearch { background: url(imgs/searchInput.png); border: none; width: 220px; height: 22px;}
+
+/* Menu */
+* {	margin:0;
+	padding:0;}
+.menuContainer { width:580px; float:right}	
+ul { list-style:none;}
+ul.menu {margin:0 auto; position:relative;}
+ul.menu li {float:left;}
+ul.menu li a { display:block; float:left padding:0 15px; height:25px; line-height:25px; text-decoration:none; color:#333; border:1px solid #ccc}
+ul.menu li a:hover, ul.menu li a.ativo { background:#ccc;}
+ul.menu li ul { display:none; position:absolute; top:25px; left:0px; padding:0px 20px; background:#ccc}
+ul.menu subMenu {}
 
 
 /* Conteúdo */
