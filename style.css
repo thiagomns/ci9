@@ -1,4 +1,7 @@
 .clearfix,.clr 	{ float: none; clear: both; }
+* {	margin:0;
+	padding:0;}
+	
 body {margin:0}
 
 /* Container */
@@ -10,26 +13,25 @@ body {margin:0}
 .site { width:960px; float:left; border:1px solid #CF0}
 
 /* Cabeçalho */
-.site .headerDireito {width:580px; float:right}
+.site .headerDireito {width:580px; height:160px; float:right}
 .site .header .headerEsquerdo {width: 290px; float:left}
 
 .site .header { height:160px; background:url(imgs/headerBG.jpg) no-repeat; padding-left:50px; padding-top:2px; padding-right:40px}
 .site .header .headerlogo {width:279px; float:left}
-.site .header .barraPesquisa {width:255px; height:27px; text-align: right;float:right; margin-top: 20px;}
-.site .header button.botaoSearch { border: none; margin: 0px -4px 0px 0px;; padding: 0;  background: url(imgs/searchBotao.png); width: 28px; height: 24px; text-indent: -9999px }
+.site .header .barraPesquisa {width:255px; height:27px; float:right; margin-top:20px}
+.site .header button.botaoSearch { border: none; margin: 0 -4px 0 0; padding: 0;  background: url(imgs/searchBotao.png); width: 28px; height: 24px; text-indent: -9999px }
 .site .header button.botaoSearch:hover { background: url(imgs/searchBotaoHover.png); }
 .site .header input.barraSearch { background: url(imgs/searchInput.png); border: none; width: 220px; height: 24px;}
 
 /* Menu */
-* {	margin:0;
-	padding:0;}
+
 .menuContainer { width:580px; float:right}	
 ul { list-style:none;}
-ul.menu {margin:0 auto; position:relative;}
+ul.menu {margin:0 auto; position:relative; float:right}
 ul.menu li {float:left;}
-ul.menu li a { display:block; float:left; margin-left: 20px; padding:0 15px; height:25px; line-height:25px; text-decoration:none; color:#333; border:1px solid #ccc; text-transform: uppercase;}
+ul.menu li a { display:block; margin-left:20px ;float:left; text-transform:uppercase ;padding:0 15px; height:25px; line-height:25px; text-decoration:none; color:#333; border:1px solid #ccc}
 ul.menu li a:hover, ul.menu li a.ativo { background:#ccc;}
-ul.menu li ul { display:none; position:absolute; top:25px; left:0px; padding:0px 20px; background:#ccc}
+ul.menu li ul { display:none; position:absolute; top:25px; left:0px; padding:0px 20px; background:#ccc;}
 ul.menu subMenu {}
 
 
@@ -46,4 +48,5 @@ ul.menu subMenu {}
 .site .footer .barraCinza { height:140px; border:1px solid #669; background:url(imgs/footerbg_06_06.jpg) repeat}
 .site .footer .barraBranca { height:26px; border:1px solid #F00}
 
+>>>>>>> Alterações Header
 .clearfix,.clr 	{ float: none; clear: both; }
