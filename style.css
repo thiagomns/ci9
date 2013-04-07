@@ -18,7 +18,7 @@ body {margin:0}
 
 .site .header { height:160px; background:url(imgs/headerBG.jpg) no-repeat; padding-left:50px; padding-top:2px; padding-right:40px}
 .site .header .headerlogo {width:279px; float:left}
-.site .header .barraPesquisa {width:255px; height:27px; float:right; margin-top:20px}
+.site .header .barraPesquisa {width:255px; height:27px; float:right; margin-top:20px; text-align:right}
 .site .header button.botaoSearch { border: none; margin: 0 -4px 0 0; padding: 0;  background: url(imgs/searchBotao.png); width: 28px; height: 24px; text-indent: -9999px }
 .site .header button.botaoSearch:hover { background: url(imgs/searchBotaoHover.png); }
 .site .header input.barraSearch { background: url(imgs/searchInput.png); border: none; width: 220px; height: 24px;}
@@ -36,7 +36,7 @@ ul.menu li ul li a { padding: 0 10px;margin: 0;font-size: 12px; width: 150px}
 
 /* Rede sociais */
 
-.site .header .redeSociais { width:580px; height:60px; float:right; text-align:right; margin-top:20px}
+.site .header .redeSociais { width:580px; height:60px; float:right; text-align:right; margin-top:10px}
 
 
 /* Conteúdo */
