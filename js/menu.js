@@ -10,10 +10,10 @@ $(function(){
          menu.slideDown();
       }
       if(!submenu.hasClass('subMenu') && menu.length == 0){
-         $(".menu a").removeClass('ativo');
+		 $(".menu a").removeClass('ativo');
          $(this).addClass('ativo');
  
-         $('.submenu').slideUp();
+         $('.subMenu').slideUp();
       }
        
    });

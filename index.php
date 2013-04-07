@@ -40,7 +40,12 @@
                         	<li><a href="#">Contato</a></li>
                    		</ul>
                    	</div><!-- Menu -->
-                	</div>
+                    	<div class="redeSociais">
+                        	<a href="#"><img src="imgs/facebooktag_03.jpg"></a>
+                        	<a href="#"><img src="imgs/tttag_03.jpg"></a>
+                            <a href="#"><img src="imgs/instagramtag_03.jpg"></a>
+                        </div>
+                	</div><!--Header Direito -->
                 	<div class="headerEsquerdo">
                     	<div class="logoheader"><img src="imgs/logoheader_03.jpg"/></div>
                		</div>

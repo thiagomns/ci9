@@ -25,14 +25,18 @@ body {margin:0}
 
 /* Menu */
 
-.menuContainer { width:580px; float:right}	
+.menuContainer { width:580px; float:right; margin-top:15px}	
 ul { list-style:none;}
 ul.menu {margin:0 auto; position:relative; float:right}
 ul.menu li {float:left;}
-ul.menu li a { display:block; margin-left:20px ;float:left; text-transform:uppercase ;padding:0 15px; height:25px; line-height:25px; text-decoration:none; color:#333; border:1px solid #ccc}
-ul.menu li a:hover, ul.menu li a.ativo { background:#ccc;}
-ul.menu li ul { display:none; position:absolute; top:25px; left:0px; padding:0px 20px; background:#ccc;}
-ul.menu subMenu {}
+ul.menu li a { display:block; margin-left:20px ;float:left; text-transform:uppercase ;padding:0 15px; height:39px; line-height:39px; text-decoration:none; color:#333; border:1px solid #ccc; background:url(imgs/menu.jpg) repeat-x}
+ul.menu li a:hover, ul.menu li a.ativo { background:url(imgs/menuAtivo.jpg) repeat-x}
+ul.menu li ul { display:none; position:absolute; top:39px; margin:0 20px; background:#ccc;}
+ul.menu li ul li a { padding: 0 10px;margin: 0;font-size: 12px; width: 150px}
+
+/* Rede sociais */
+
+.site .header .redeSociais { width:580px; height:60px; float:right; text-align:right; margin-top:20px}
 
 
 /* Conteúdo */
