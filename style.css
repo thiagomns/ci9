@@ -5,12 +5,12 @@
 body {margin:0}
 
 /* Container */
-.container { width:990px; margin:0 auto; border:1px solid #0CF}
-.container .sombraEsquerda { float:left; border:1px solid #0F0}
-.container .sombraDireita { float:left; border:1px solid #0F0}
+.container { width:1020px; margin:0 auto;}
+.container .sombraEsquerda { float:left;}
+.container .sombraDireita { float:left;}
 
 /* Container Interno */
-.site { width:960px; float:left; border:1px solid #CF0}
+.site { width:960px; float:left; }
 
 /* Cabeçalho */
 .site .headerDireito {width:580px; height:160px; float:right}
@@ -36,7 +36,7 @@ ul.menu li ul li a { padding: 0 10px;margin: 0;font-size: 12px; width: 150px}
 
 /* Rede sociais */
 
-.site .header .redeSociais { width:580px; height:60px; float:right; text-align:right; margin-top:10px}
+.site .header .redeSociais { width:580px; height:60px; float:right; text-align:right; margin-top:10px;}
 
 
 /* Conteúdo */
@@ -48,9 +48,14 @@ ul.menu li ul li a { padding: 0 10px;margin: 0;font-size: 12px; width: 150px}
 .site .colunaMeio { margin:11px 343px;}
 
 /* Roda pé */
-.site .footer { height:166px; border:1px solid #F66;}
-.site .footer .barraCinza { height:140px; border:1px solid #669; background:url(imgs/footerbg_06_06.jpg) repeat}
+.site .footer { height:166px; }
+.site .footer .barraCinza { height:140px;background:url(imgs/footerbg_06_06.jpg) repeat}
+.site .footer .barraCinza .footerEsquerdo {height:135px; width:135px; margin-left:65px; padding-top:25px; float:left }
+.site .footer .barraCinza .footerDireito {height:135px; width:670px; float:right}
+.site .footer .barraCinza .footerDireito .footerContato {height:80px; width:265px; float:left; margin-top:27px}
+.site .footer .barraCinza .footerDireito .footerContato .contatoEsquerdo { float:left}
+.site .footer .barraCinza .footerDireito .footerContato	.contatoDireito	{float:right}
+.site .footer .barraCinza .footerDireito .barraNews { height:35px; width:280px; float:right; margin-top:30px}
+.site .footer .barracinza .footerDireito .barraNews button.botaoNews {height:35px; width:30px; border:none; background:url(imgs/footerIconeNews.png); text-indent: -9999px;}
+.site .footer .barraCinza .footerDireito .barraNews input.inputNews { border:none; background:url(imgs/footerInputNews.png) no-repeat; width:225px; height:35px;}
 .site .footer .barraBranca { height:26px; border:1px solid #F00}
-
->>>>>>> Alterações Header
-.clearfix,.clr 	{ float: none; clear: both; }

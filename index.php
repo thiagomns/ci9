@@ -13,7 +13,7 @@
 
 <body>
 	<div class="container">
-    	<div class="sombraEsquerda">E</div>
+    	<div class="sombraEsquerda"><img src="imgs/sombraEsquerda.png" /></div>
            	<div class="site">
                 <div class="header">
                 	<div class="headerDireito">
@@ -71,11 +71,32 @@
                    
               	</div><!-- content -->
             	<div class="footer">
-            		<div class="barraCinza">Cinza</div>
+            		<div class="barraCinza">
+                    	<div class="footerEsquerdo"><img src="imgs/footerCaixa.png" /></div>
+                        <div class="footerDireito">
+                        	<div class="footerContato">
+                        		<div class="contatoEsquerdo">
+                                <img src="imgs/footerTelefone.png" />
+                                </div>
+                                <div class="contatoDireito">
+                                								55 11 5555 5555	
+                        	<br />								endereço completo,rua , numero SP
+                        	<br />								email: ci9@....com.br
+                        	<br />								skype: ci9
+                            	</div>
+                            </div>
+                            <div class="barraNews">
+                            	<form action="#">
+                        		<button type="button" class="botaoNews"  onclick="alert('Hello world!')">ok</button>
+                           		<input type="text" name="search" class="inputNews"></input>
+                            	</form>
+                            </div>
+                        </div>
+                    </div>
                 	<div class="barraBranca">Branco</div>
             	</div><!-- footer -->
         	</div><!-- site -->
-        <div class="sombraDireita">D</div>
+        <div class="sombraDireita"><img src="imgs/sombraDireita.png"</div>
     </div>        
 </body>
 </html>
