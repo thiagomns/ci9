@@ -40,22 +40,27 @@ ul.menu li ul li a { padding: 0 10px;margin: 0;font-size: 12px; width: 150px}
 
 
 /* Conteúdo */
-.site .content {}
+.site .content { background: url(imgs/conteudoBKG.png); }
 .site .slide { height:366px; width:893px; background:url(imgs/content1_03.jpg); float:none; no-repeat; margin:5px auto;}
-.site .cabeçalho { margin:5px 0px 0px 0px; height:37px; padding:3px;}
+.site .quadrado { float: left; width: 12px; height: 12px; background-color: #d1ad6e; }
+.site .cabecalho { margin:5px 0px 0px 0px; height:37px; padding:3px; text-transform: uppercase; letter-spacing: 10px;}
 .site .colunaEsquerda { width:250px; margin:0px 0px 0px 34px; float:left;}
 .site .colunaDireita { width:274px; margin:0px 34px 0px 0px;float: right;}
 .site .colunaMeio { margin:11px 343px;}
 
+p.separador { text-align:center;width: 285px;margin-top: 20px; }
+
 /* Roda pé */
 .site .footer { height:166px; }
 .site .footer .barraCinza { height:140px;background:url(imgs/footerbg_06_06.jpg) repeat}
-.site .footer .barraCinza .footerEsquerdo {height:135px; width:135px; margin-left:65px; padding-top:25px; float:left }
-.site .footer .barraCinza .footerDireito {height:135px; width:670px; float:right}
+.site .footer .barraCinza .footerEsquerdo { width:135px; margin-left:65px; padding-top:25px; float:left }
+.site .footer .barraCinza .footerDireito { width:670px; float:right}
 .site .footer .barraCinza .footerDireito .footerContato {height:80px; width:265px; float:left; margin-top:27px}
 .site .footer .barraCinza .footerDireito .footerContato .contatoEsquerdo { float:left}
 .site .footer .barraCinza .footerDireito .footerContato	.contatoDireito	{float:right}
-.site .footer .barraCinza .footerDireito .barraNews { height:35px; width:280px; float:right; margin-top:30px}
-.site .footer .barracinza .footerDireito .barraNews button.botaoNews {height:35px; width:30px; border:none; background:url(imgs/footerIconeNews.png); text-indent: -9999px;}
+.site .footer .barraCinza .footerDireito .barraNews { width:280px; float:right; margin-top:30px}
+.site .footer button.botaoNews {height:35px; width:37px; border:none; background:url(imgs/footerIconeNews.png); text-indent: -9999px;margin-right: -4px;}
 .site .footer .barraCinza .footerDireito .barraNews input.inputNews { border:none; background:url(imgs/footerInputNews.png) no-repeat; width:225px; height:35px;}
-.site .footer .barraBranca { height:26px; border:1px solid #F00}
+.site .footer .barraBranca { height:26px;}
+.site .footer .sombraTop { background: url(imgs/footerSombraTop.png); float: left; width:960px; height:14px; }
+.site .footer .barraCinza .sombraBottom { background: url(imgs/footerSombraBottom.png);  float: left; width:960px; height:14px; }

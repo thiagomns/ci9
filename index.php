@@ -47,43 +47,55 @@
                         </div>
                 	</div><!--Header Direito -->
                 	<div class="headerEsquerdo">
-                    	<div class="logoheader"><img src="imgs/logoheader_03.jpg"/></div>
+                    	<div class="logoheader"><img src="imgs/logoCi9.png"/></div>
                		</div>
                 </div><!-- header -->
             	<div class="content">
             		<div class="slide"></div>
         			  	
-                	<div class="colunaEsquerda">
-                    	<div class="cabeçalho">COrrimãos</div>
+                	<div class="colunaEsquerda"><div class="quadrado"></div>
+                    	<div class="cabecalho">Corrimãos</div>
                         
                         <img src="imgs/colunaesquerda.jpg"><br>
-                        "Quando é verdadeiro, o tempo não enfraquece e ninguém substitui." — com Amanda Niemeyer.
+                        <p class="separador">
+                        <img src="imgs/infoHorario.png"><br>
+                        </p>
                     </div>
-              		<div class="colunaDireita"><div class="cabeçalho">colD</div>
+              		<div class="colunaDireita"><div class="quadrado"></div><div class="cabecalho">Guarda Copos</div>
                     <img src="imgs/colunadireita.jpg">
-                    "Quando é verdadeiro, o tempo não enfraquece e ninguém substitui." — com Amanda Niemeyer.
+                    <p class="separador">
+                    Trabalho conosco
+                    </p>
                     </div>
-              		<div class="colunaMeio"><div class="cabeçalho">colM</div>
+              		<div class="colunaMeio"><div class="quadrado"></div><div class="cabecalho">Artefatos</div>
                     <img src="imgs/colunaMeio.jpg">
-                    "Quando é verdadeiro, o tempo não enfraquece e ninguém substitui." — com Amanda Niemeyer.
+                    <p class="separador">
+                    BENEFÍCIOS DO INOX<br>
+                    O Aço Inox é reconhecido como material
+                    de elegância, bom gosto e durabilidade,
+                    o f e r e c e n d o o p ç õ e s v a r i a d a s d e
+                    acabamento estético, como polido,
+                    escovado, jateado e outros.
+                    </p>
                     </div>
                     <div class="clearfix"></div>
                    
               	</div><!-- content -->
             	<div class="footer">
+                    <div class="sombraTop"></div>
             		<div class="barraCinza">
                     	<div class="footerEsquerdo"><img src="imgs/footerCaixa.png" /></div>
                         <div class="footerDireito">
                         	<div class="footerContato">
                         		<div class="contatoEsquerdo">
-                                <img src="imgs/footerTelefone.png" />
+                                    <img src="imgs/footerTelefone.png" />
                                 </div>
                                 <div class="contatoDireito">
-                                								55 11 5555 5555	
-                        	<br />								endereço completo,rua , numero SP
-                        	<br />								email: ci9@....com.br
-                        	<br />								skype: ci9
-                            	</div>
+                                							55 11 5555 5555<br />	
+                        									endereço completo,rua , numero SP<br />
+                        									email: ci9@....com.br<br />
+                        									skype: ci9
+                                </div>
                             </div>
                             <div class="barraNews">
                             	<form action="#">
@@ -92,8 +104,9 @@
                             	</form>
                             </div>
                         </div>
+                        <div class="sombraBottom"></div>
                     </div>
-                	<div class="barraBranca">Branco</div>
+                	<div class="barraBranca">2013 Ci9. Todos os direitos reservados.</div>
             	</div><!-- footer -->
         	</div><!-- site -->
         <div class="sombraDireita"><img src="imgs/sombraDireita.png"</div>
