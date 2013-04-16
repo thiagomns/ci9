@@ -38,15 +38,26 @@ ul.menu li ul li a { padding: 0 10px;margin: 0;font-size: 12px; width: 150px}
 
 .site .header .redeSociais { width:580px; height:60px; float:right; text-align:right; margin-top:10px;}
 
+/* Colunas */
+.conteudo { width:900px; margin: 0 auto; }
+
+.col1, .clo2, .col3, .col4, .col5, 
+.col6, .col7, .col8, .col9, .col10 { display: inline; float: left; margin-left: 5px; margin-right: 5px; }
+
+.conteudo .col1 { width: 890px; }
+.conteudo .col2 { width: 440px; }
+.conteudo .col3 { width: 290px; }
+.conteudo .col4 { width: 215px; }
+.conteudo .col5 { width: 170px; }
+.conteudo .col6 { width: 140px; }
+.conteudo .col9 { width:  90px; }
 
 /* Conteúdo */
 .site .content { background: url(imgs/conteudoBKG.png); }
+
 .site .slide { height:366px; width:893px; background:url(imgs/content1_03.jpg); float:none; no-repeat; margin:5px auto;}
-.site .quadrado { float: left; width: 12px; height: 12px; background-color: #d1ad6e; }
+.site .quadrado { float: left; width: 12px; height: 12px; background-color: #d1ad6e; margin-top: 11px; margin-right: 8px;}
 .site .cabecalho { margin:5px 0px 0px 0px; height:37px; padding:3px; text-transform: uppercase; letter-spacing: 10px;}
-.site .colunaEsquerda { width:250px; margin:0px 0px 0px 34px; float:left;}
-.site .colunaDireita { width:274px; margin:0px 34px 0px 0px;float: right;}
-.site .colunaMeio { margin:11px 343px;}
 
 p.separador { text-align:center;width: 285px;margin-top: 20px; }
 

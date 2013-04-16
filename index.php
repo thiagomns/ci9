@@ -52,32 +52,44 @@
                 </div><!-- header -->
             	<div class="content">
             		<div class="slide"></div>
-        			  	
-                	<div class="colunaEsquerda"><div class="quadrado"></div>
-                    	<div class="cabecalho">Corrimãos</div>
+                    <div class="conteudo">
+                        <div class="col3">
+
+                            <div class="quadrado"></div>
+                            <div class="cabecalho">Corrimãos</div>
                         
-                        <img src="imgs/colunaesquerda.jpg"><br>
-                        <p class="separador">
-                        <img src="imgs/infoHorario.png"><br>
-                        </p>
+                            <img src="imgs/colunaesquerda.jpg"><br>
+                            <p class="separador">
+                            <img src="imgs/infoHorario.png"><br>
+                            </p>
+
+                        </div>
+                        <div class="col3">
+
+                            <div class="quadrado"></div><div class="cabecalho">Artefatos</div>
+                            <img src="imgs/colunaMeio.jpg">
+                            <p class="separador">
+                            BENEFÍCIOS DO INOX<br>
+                            O Aço Inox é reconhecido como material
+                            de elegância, bom gosto e durabilidade,
+                            o f e r e c e n d o o p ç õ e s v a r i a d a s d e
+                            acabamento estético, como polido,
+                            escovado, jateado e outros.
+                            </p>
+
+                        </div>
+                        <div class="col3">
+
+                            <div class="quadrado"></div><div class="cabecalho">Guarda Copos</div>
+                            <img src="imgs/colunadireita.jpg">
+                            <p class="separador">
+                            Trabalho conosco
+                            </p>
+
+                        </div>
+                        <div class="clearfix"></div>
                     </div>
-              		<div class="colunaDireita"><div class="quadrado"></div><div class="cabecalho">Guarda Copos</div>
-                    <img src="imgs/colunadireita.jpg">
-                    <p class="separador">
-                    Trabalho conosco
-                    </p>
-                    </div>
-              		<div class="colunaMeio"><div class="quadrado"></div><div class="cabecalho">Artefatos</div>
-                    <img src="imgs/colunaMeio.jpg">
-                    <p class="separador">
-                    BENEFÍCIOS DO INOX<br>
-                    O Aço Inox é reconhecido como material
-                    de elegância, bom gosto e durabilidade,
-                    o f e r e c e n d o o p ç õ e s v a r i a d a s d e
-                    acabamento estético, como polido,
-                    escovado, jateado e outros.
-                    </p>
-                    </div>
+        			  	
                     <div class="clearfix"></div>
                    
               	</div><!-- content -->
