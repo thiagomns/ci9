@@ -68,11 +68,11 @@
 
                             <div class="quadrado"></div><div class="cabecalho">Artefatos</div>
                             <img src="imgs/colunaMeio.jpg">
-                            <p class="separador">
-                            BENEFÍCIOS DO INOX<br>
+                            <p class="separador alinhado">
+                            <h1>BENEFÍCIOS DO INOX</h1><br>
                             O Aço Inox é reconhecido como material
                             de elegância, bom gosto e durabilidade,
-                            o f e r e c e n d o o p ç õ e s v a r i a d a s d e
+                            oferecendo opções variadade
                             acabamento estético, como polido,
                             escovado, jateado e outros.
                             </p>
@@ -85,8 +85,15 @@
                             <p class="separador">
                             Trabalho conosco
                             </p>
-
+						
                         </div>
+                        <div class="clearfix"></div>
+                        <div class="col1">
+                        	<h1><p style="text-align:center"> Corrimãos e Artefatos em aço inox</p></h1>
+                        </div>    
+                        
+                        	
+                        
                         <div class="clearfix"></div>
                     </div>
         			  	

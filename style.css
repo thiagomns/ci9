@@ -2,6 +2,13 @@
 * {	margin:0;
 	padding:0;}
 	
+.alinhado {
+	text-align:justify;
+	}
+h1 {	font-size:16px;
+		text-transform:uppercase;
+	}
+	
 body {margin:0}
 
 /* Container */
